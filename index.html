@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player - Clone</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="icon" href="/symbols/favicon.ico">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left rounded">
+            <div class="home bg-grey rounded p-1 font-700 color-grey">
+                <div class="logo">
+                    <img width="90px" class="invert" src="/symbols/logo.svg" alt="logo">
+                    <div class="close">
+                        <img class="invert" src="/symbols/close.svg" alt="close">
+                    </div>
+                </div>
+                <ul>
+                    <li id="home-btn"><img id="home-img" class="w-img" src="/symbols/home.svg" alt="home">Home</li>
+                    <li id="search-btn"><img id="search-img" class="w-img" src="/symbols/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded font-700">
+                <div class="heading">
+                    <img class="invert w-img" src="/symbols/library.svg" alt="library">
+                    <span>Your Library</span>
+                </div>
+
+                <div class="song-list">
+                    <ol>
+
+                    </ol>
+                </div>
+
+                <div class="footer">
+                    <div class="sec">
+                        <div><a href="/others/legal.html"><span>Legal</span></a></div>
+                        <div><a href="/index.html"><span>Safety &amp; Privacy Center</span></a></div>
+                    </div>
+
+                    <div class="sec">
+                        <div><a href="/index.html"><span>Privacy Policy</span></a></div>
+                        <div><a href="/index.html"><span>Cookies</span></a></div>
+                        <div><a href="/index.html"><span>About Ads</span></a></div>
+                    </div>
+
+                    <div class="sec">
+                        <div><a href="/index.html"><span>Accessibility</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right bg-grey rounded">
+            <div class="header bg-grey-black rounded">
+                <div class="nav">
+                    <div class="ham invert"><img src="/symbols/ham.svg" alt="ham"></div>
+                    <button><img id="l" src="/symbols/left.svg" alt="left"></button>
+                    <button><img id="r" src="/symbols/right.svg" alt="right"></button>
+                </div>
+
+                <div class="buttons">
+                    <button class="signup-btn bg-grey-black font-700 color-grey">Sign up</button>
+                    <button class="login-btn font-700">Log in</button>
+                </div>
+            </div>
+
+            <div class="soptify-playlist">
+                <h1>Spotify Playlist</h1>
+
+                <div class="cardContainer">
+                    <div class="grid">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="playbar rounded">
+                <div class="song-play">
+                    <div class="song-info"></div>
+    
+                    <div class="song-btn">
+                        <button class="prev-next"><img id="prev" src="/symbols/prev.svg" alt="prev"></button>
+                        <button class="play-btn"><img id="play" src="/symbols/play.svg" alt="play"></button>
+                        <button class="prev-next"><img id="next" src="/symbols/next.svg" alt="next"></button>
+                    </div>
+                    
+                    <div class="song-after">
+                        <div class="song-time">
+
+                        </div>
+                        <div class="volume">
+                            <div class="range">
+                                <input type="range" name="volume" value="75" class="slider">
+                            </div>
+                            <img src="/symbols/volume.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="seekbar">
+                    <div class="rect"></div>
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src='/js/script.js'></script>
+</body>
+
+</html>

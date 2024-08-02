@@ -1,0 +1,8 @@
+<svg fill="rgb(167, 167, 167)" height="64px" width="64px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+  <g id="SVGRepo_iconCarrier">
+    <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z" fill="rgba(26, 26, 26, 0)"></path>
+    <path d="M202.125,242.688l96-64 C327.801,168.906,330.898,168,334,168c2.59,0,5.184,0.625,7.551,1.891C348.754,180.68,352,186.102,352,192v128 c0,5.898-3.246,11.32-8.449,14.109c-5.203,2.773-11.516,2.484-16.426-0.797l-96-64C226.672,266.344,224,261.352,224,256 S226.672,245.656,202.125,242.688z M144,192c0-8.836,7.164-16,16-16h16c8.836,0,16,7.164,16,16v128c0,8.836-7.164,16-16,16h-16 c-8.836,0-16-7.164-16-16V192z" fill="rgb(167, 167, 167)"></path>
+  </g>
+</svg>
